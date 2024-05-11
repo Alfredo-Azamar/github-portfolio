@@ -1,50 +1,227 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Mi Portafolio</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Alfredo Azamar López - Portafolio</title>
+	<link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body>
-    <header>
-        <h1>Mi Portafolio</h1>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="header-title">Alfredo Azamar</h1>
+                <h6 class="header-mono" >Software Engineer</h6>
+            </div>
+        </div>
     </header>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Sobre Mi</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav brand">
+                    <img src="assets/imgs/avatar.jpg" alt="AlfredoAzamar" class="brand-img">
+                     
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#blog" class="nav-link">Proyectos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div id="about" class="row about-section">
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                   <div class="card-header">
+                        <div class="mt-2">
+                            <h4>Educación</h4>
+                            <span class="line"></span>  
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="title text-danger">2020 - Presente</h6>
+                        <P>Ingeniería en Tecnologías Computacionales</P>
+                        <P class="subtitle">Estudio el sexto semestre de la carrera en el Tecnológico de Monterrey, a punto de tomar una concentración enfocada a la Inteligencia artificial avanzada para la ciencia de datos.</P>
+                        <hr>
+                        <h6 class="title text-danger">Google Cloud Computing</h6>
+                        <P>Diploma</P>
+                        <P class="subtitle">Curse y me certifique en el curso de Google Cloud Computing 
+                            Foundations, donde aprendí sobre conceptos básicos de la computación en la nube, 
+                            sus beneficios y casos de uso. Así como, el conocimiento básico a servicios 
+                            ofrecidos por Google Cloud [Compute Engine, App Engine, Kubernetes Engine, Cloud Storage]</P>
+                        <hr>
+                        <h6 class="title text-danger">La Brújula Audiovisual</h6>
+                        <P>Servicio Social</P>
+                        <P class="subtitle">Enfocado a dar mantenimiento al FrontEnd de la página web de la
+                            organización, resolviendo errores de funcionalidad, actualizando
+                            datos estáticos como anuncios y listas, y modificando el diseño de la
+                            página. Se realizó con el uso del framework React, codificado en el
+                            lenguaje de programación Typescript.</P>
+                        
+                    </div>
+                </div>
+            </div>
 
-    <section>
-        <h2>Sobre mí</h2>
-        <p>Aquí puedes escribir una breve descripción sobre ti y tus habilidades.</p>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Información Personal</h3>
+                <span class="line mb-5"></span>
+                <ul class="mt40 info list-unstyled">
+                    <li><span>Fecha Nacimiento</span> : 10/12/2003</li>
+                    <li><span>Email</span> : alfredo.azamar@gmail.com</li>
+                    <li><span>Teléfono</span> : +52 55 4006 6976</li>
+                    <li><span>Ubicación</span> :  Naucalpan de Juárez, Estado de México</li>
+                </ul> 
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                   <div class="card-header">
+                        <div class="pull-left">
+                            <h4 class="mt-2">Habilidades</h4>
+                            <span class="line"></span>  
+                        </div>
+                    </div>
+                    <div class="card-body pb-2">
+                       <h6>Python</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h6>JavaScript</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h6>SQL</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h6>C++</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h6>TypeScript</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h6>C#</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                   <div class="card-header">
+                        <div class="pull-left">
+                            <h4 class="mt-2">Idiomas</h4>
+                            <span class="line"></span>  
+                        </div>
+                    </div>
+                    <div class="card-body pb-2">
+                       <h6>Inglés</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h6>Español</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <section class="section" id="blog">
+        <div class="container">
+            <h2 class="mb-5">Mis <span class="text-danger">Proyectos</span></h2>
+            <div class="row">
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog1.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">PLAto pa’ TOdos</h6>
+                        <p>Implementé una solución móvil para facilitar el registro de
+                            asistencia mediante la lectura de códigos QR, localización de los
+                            comedores comunitarios y administración de los servicios que ofrece
+                            el comedor.</p>
+
+                        <p><b>La solución se implementó bajo la plataforma de Android
+                            con la ayuda de diferentes servicios de AWS y SQL. Como resultado, el
+                            comedor optimizó el tiempo de registro de comensales y obtuvo una
+                            herramienta para mejorar la calidad de servicio.</b></p>
+
+                        <p>El comensal experimentó una mejora en el servicio al conocer 
+                            la disponibilidad y menú de los comedores más cercanos a su ubicación.</p>
+                    </div>
+                </div>
+                
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog2.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">Crack The Code</h6>
+                        <p> En este proyecto se implementó un videojuego para que los niños de 
+                            latinoamérica obtuvieron un interés por la programación, al crear 
+                            un videojuego en 2D (desarrollado en Unity). Este tiene conceptos 
+                            básicos de la programación y busca ser entretenido.</p>
+
+                        <p><b>
+                            El videojuego se colocó dentro de una aplicación web, que además de
+                             alojar el videojuego, tiene elementos como la captura de datos sobre 
+                             los padres y niños (para que se inscriban a los cursos que ofrece la 
+                             compañía “Crack The Code”), un leaderboard de la puntuación que los 
+                             jugadores obtienen.
+                        </b></p>
+
+                        <p>
+                            Además, se creó una sección para el administrador de la página, 
+                            donde tiene acceso a la manipulación de datos sobre los jugadores y
+                            visualiza KPIs relacionados a la captación de usuarios.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h4 class="title">Ciudad 3D</h4>
+                        <p> Se diseñó y creó un modelado gráfico de una ciudad en 3D, se utilizan
+                             herramientas como Unity y Python, para este proyecto se desarrollaron 
+                             los modelos de agentes y sistemas multiagentes (utilizando la librería 
+                             “Mesa”), ofreciendo características como abstracción de alto nivel, 
+                             flexibilidad y extensibilidad.</p>
+
+                        <p><b>
+                            Con el proyecto se presenta la abundancia de datos sobre las variables 
+                            que afectan el comportamiento individual se transforma en un recurso 
+                            de gran valor. Este enfoque no solo se ajusta a la complejidad del sistema, 
+                            sino que también mejora la capacidad predictiva y descriptiva de nuestro 
+                            modelo, dándonos la posibilidad de capturar de manera precisa la 
+                            interacción de los agentes.
+                        </b></p>
+
+                        <p>
+                            El resultado final de la representación 3D no solo cumple con el propósito 
+                            de ilustrar de manera clara y detallada la simulación, sino que también 
+                            proporciona una plataforma sólida para extraer conclusiones significativas 
+                            sobre la dinámica y los factores influyentes en la ciudad simulada.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-
-    <section>
-        <h2>Educación</h2>
-        <ul>
-            <li>Nombre de la institución 1 - Título obtenido (año)</li>
-            <li>Nombre de la institución 2 - Título obtenido (año)</li>
-            <li>Nombre de la institución 3 - Título obtenido (año)</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Proyectos</h2>
-        <ul>
-            <li>
-                <h3>Proyecto 1</h3>
-                <!-- <img src="ruta/a/la/imagen1.jpg" alt="Descripción de la imagen 1"> -->
-                <p>Descripción del proyecto 1.</p>
-            </li>
-            <li>
-                <h3>Proyecto 2</h3>
-                <!-- <img src="ruta/a/la/imagen2.jpg" alt="Descripción de la imagen 2"> -->
-                <p>Descripción del proyecto 2.</p>
-            </li>
-            <li>
-                <h3>Proyecto 3</h3>
-                <!-- <img src="ruta/a/la/imagen3.jpg" alt="Descripción de la imagen 3"> -->
-                <p>Descripción del proyecto 3.</p>
-            </li>
-        </ul>
-    </section>
-
-    <footer>
-        <p>© 2022 Mi Portafolio. Todos los derechos reservados.</p>
-    </footer>
 </body>
 </html>
